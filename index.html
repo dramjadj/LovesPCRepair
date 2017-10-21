@@ -1,0 +1,112 @@
+<html>
+<head>
+  <title>Love's PC Repair</title>
+  <meta name="viewport" content="width=device-width; maximum-scale=1">
+  <script src="https://use.fontawesome.com/df61b1246a.js"></script>
+  <link rel="stylesheet" type="text/css" href="gui.css">
+  <script src="functions.js"></script>
+</head>
+<body>
+  <header>
+    <a href="index.html" id="logo">Love's PC Repair</a>
+    <nav>
+      <a href="#" id="menu-icon">&#9776;</a>
+      <ul>
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="bdy">
+    <h3 class="title">Love's PC Repair</h3>
+    <p class="intro">
+      Welcome to Love's PC Repair! We are fully capable<br/>
+      of handeling all of your IT solutions from Cell-Phones<br/>
+      to Laptops and Desktops. Have a virus, we can help! Need<br/>
+      a better graphics card installed to play your favorite game?<br/>
+      We can cater to that as well! We strive to be the one-stop-shop<br/>
+      for all of your IT solution needs and desires!<br/>
+      <br/>
+      <b style="color: #00F;">How old is your Device?</b><br/>
+      <input type="text" name="age" id="age" onchange="Age();" placeholder="Age: (25)">&nbsp;&nbsp;&nbsp;<input type="text" name="year" id="year" placeholder="Year: (1993)" onchange="Year();">
+    </p>
+    <div class="cnt">
+      <div class="first">
+        <img src="img/pc.png" class="bnr">
+        <h1>
+          Computer Repairs!
+        </h1>
+        <p>
+          Love's PC Repair services all types of computers!
+          From Windows custom-built desktops/laptops to Apple computers.
+          Yes we also cater to your Linux Machines as well!
+        </p>
+      </div>
+      <div class="second">
+        <img src="img/phone.png" class="bnr">
+        <h1>
+          Cell-Phone Repairs!
+        </h1>
+        <p>
+          We can fix your broken iPhones, Android, or Windows
+          Phone Screens! With options to meet you on your lunch
+          break, or at your office, Love's PC Repair will be there
+          to get your phone back to new again!
+        </p>
+      </div>
+      <div class="third">
+        <img src="img/wifi.png" class="bnr">
+        <h1>
+          Network Setup & Security!
+        </h1>
+        <p>
+          What is the purpose of having a home Wi-Fi
+          if it is not secured? We can assist on securing
+          all of your connected devices, setup a filter
+          directly on your Wi-Fi Router, and assist with
+          settin gup Advanced Secured Passwords to keep
+          hackers out!
+        </p>
+      </div>
+    </div>
+    <div id="timer1" style="visibility: hidden">
+      <div style="text-align: center; margin-bottom: 25px;">
+        <button type="button" onclick="And1();">Android Studio (Part 1)</button><button type="button" onclick="And2();">Android Studio (Part 2)</button>
+        <div id="SHW" style="display: block">
+          <h1>Watch Android Studio Videos. Click on Either Button Above</h1>
+        </div>
+      </div>
+        <div id="and1" style="display: none">
+          <iframe width="560" height="315" class="video" src="https://www.youtube.com/embed/9ubrgadGDvk" frameborder="0" allowfullscreen/></iframe>
+        </div>
+        <div id="and2" style="display: none">
+          <iframe width="560" height="315" class="video" src="https://www.youtube.com/embed/IejmV-qwZmA" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <br/>
+    <br/>
+
+  </div>
+  <footer>
+    <p>
+      Love's PC Repair<br/>
+      1 Coder Way BLVD<br/>
+      Fort Worth TX, 76088<br/>
+      Email: aubrey@austmo.com<br/>
+      Phone: (252) 555-0505<br/>
+      <a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.github.com"><i class="fa fa-github" aria-hidden="true"></i></a>
+    </p>
+    <a href="https://www.cryptosass.com" id="wm">CryptoSASS LLC</a>
+    <ul id="mnu">
+      <li><a href="#">SiteMap</a></li>
+      <li>Contact</li>
+    </ul>
+  </footer>
+</body>
+</html>
